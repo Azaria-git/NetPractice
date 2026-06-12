@@ -1,46 +1,125 @@
-This project has been created as part of the 42 curriculum by aravelom.
+# 🌐 NetPractice
 
-## Description
+> Network fundamentals training project from the 42 curriculum.
 
-NetPractice is a networking training project from the 42 curriculum.
-Its goal is to help students understand fundamental networking concepts
-through interactive exercises.  
-The project focuses on IP addressing, subnet masks, routing, and how
-devices communicate inside a network.
+## Overview
 
-## Instructions
+**NetPractice** is an educational project from the 42 curriculum designed to introduce students to the fundamentals of computer networking through a series of practical exercises.
 
-### Running the training interface
-Open the `index.html` file in a web browser (such as Firefox or Chrome).
+The objective is to develop a solid understanding of how devices communicate within a network by configuring IP addresses, subnet masks, gateways, and routing paths.
 
-### Exporting configurations
-For each level, complete the required network configuration and export
-the configuration file using the export option provided in the interface.
+Through ten progressively challenging levels, students learn to analyze network topologies and resolve connectivity issues while applying essential TCP/IP concepts.
 
-### Submission requirements
-You must export **10 configuration files** (one per level).
-All exported files must be placed **at the root of the Git repository**
-before submission.
+---
+
+## Learning Objectives
+
+This project focuses on the following networking concepts:
+
+* IPv4 addressing
+* Subnet masks
+* Network segmentation
+* Routing fundamentals
+* Default gateways
+* Network topology analysis
+* Device-to-device communication
+* TCP/IP networking basics
+
+---
+
+## Project Structure
+
+```text
+NetPractice/
+├── Level/
+│   ├── level1.json
+│   ├── level2.json
+│   ├── level3.json
+│   ├── level4.json
+│   ├── level5.json
+│   ├── level6.json
+│   ├── level7.json
+│   ├── level8.json
+│   ├── level9.json
+│   └── level10.json
+├── net_practice.1.8.tgz
+├── NetPractice.pdf
+└── README.md
+```
+
+---
+
+## Usage
+
+### Launching the Training Interface
+
+Extract the provided archive and open the `index.html` file in your preferred web browser.
+
+Supported browsers:
+
+* Firefox
+* Google Chrome
+* Chromium-based browsers
+
+### Completing Levels
+
+For each level:
+
+1. Analyze the network topology.
+2. Configure the missing network parameters.
+3. Verify network connectivity.
+4. Export the resulting configuration.
+
+---
+
+## Submission
+
+The project requires the completion of **10 levels**.
+
+The exported configuration files must:
+
+* Correspond to all required levels.
+* Be valid and functional.
+* Be placed at the root of the repository before submission.
+
+---
+
+## Skills Developed
+
+* Network troubleshooting
+* IP addressing and subnetting
+* Routing logic
+* Infrastructure analysis
+* Problem-solving methodology
+* Understanding of TCP/IP communication
+
+---
 
 ## Resources
 
-### Networking concepts studied
-- IP address
-- Subnet mask
-- Default gateway
-- Routers
-- Switches
-- Basic TCP/IP networking concepts
+### Documentation
 
-### References
-- Wikipedia – Computer Networking
-- Wikipedia – IP address
-- Wikipedia – Subnetting
-- 42 documentation and peer discussions
+* RFC 791 — Internet Protocol (IP)
+* RFC 950 — Subnetting Procedures
+* TCP/IP Networking Fundamentals
+* 42 School Documentation
 
-### AI usage
-AI tools such as ChatGPT were used to:
-- Better understand networking concepts (IP addressing, subnet masks, routing)
-- Assist in writing and structuring the README documentation
+### Additional References
 
-No configurations or solutions were directly generated for submission.
+* Computer Networking Principles
+* IPv4 Addressing and Subnetting Guides
+* Routing Fundamentals Documentation
+
+---
+
+## Author
+
+**Azaria**
+
+Student at 42 Antananarivo
+
+---
+
+## License
+
+This repository is provided for educational purposes as part of the 42 School curriculum.
